@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('material-icons/fonts/MaterialSymbolsRounded.ttf') format('truetype');
+}
+
+body {
+  width: 250px;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.icon {
+  font-size: 24px;
+  color: #4285f4;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: #4285f4;
+}
+
+.content {
+  margin-bottom: 15px;
+}
+
+.pip-button {
+  padding: 12px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 8px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  line-height: 1;
+}
+
+.pip-button:hover {
+  background-color: #3367d6;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.pip-button:active {
+  transform: translateY(0);
+}
+
+.pip-button.close {
+  background-color: #ea4335;
+}
+
+.pip-button.close:hover {
+  background-color: #d33426;
+}
+
+.button-icon {
+  margin-right: 8px;
+  font-size: 16px;
+  display: inline-flex;
+  align-self: center;
+  line-height: 1;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.info-box {
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-icon {
+  color: #4285f4;
+  margin-right: 8px;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.info-box p {
+  margin: 0;
+  font-size: 13px;
+  color: #5f6368;
+  line-height: 1.4;
+}
+
+.message {
+  color: #d33426;
+  font-size: 13px;
+  padding: 8px 10px;
+  background-color: #fce8e6;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: none;
+}
+
+.message.show {
+  display: block;
+}

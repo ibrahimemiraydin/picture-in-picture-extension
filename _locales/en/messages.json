@@ -1,0 +1,56 @@
+{
+  "extension_name": {
+    "message": "Picture-in-Picture Extension"
+  },
+  "extension_description": {
+    "message": "Opens the video in the active tab in Picture-in-Picture mode."
+  },
+  "popup_title": {
+    "message": "PiP Control"
+  },
+  "pip_open_button": {
+    "message": "Start PiP Mode"
+  },
+  "pip_close_button": {
+    "message": "Exit PiP Mode"
+  },
+  "info_text": {
+    "message": "Works on any tab playing a video"
+  },
+  "msg_pip_starting": {
+    "message": "Starting PiP..."
+  },
+  "msg_pip_started": {
+    "message": "Video switched to Picture-in-Picture mode!"
+  },
+  "msg_pip_closing": {
+    "message": "Exiting PiP..."
+  },
+  "msg_pip_closed": {
+    "message": "Video exited Picture-in-Picture mode!"
+  },
+  "msg_no_active_tab": {
+    "message": "Error: No active tab found."
+  },
+  "msg_communication_error": {
+    "message": "Error: Could not communicate with the tab. Reason: $1"
+  },
+  "msg_unsupported_url": {
+    "message": "Error: This extension does not work on this page (chrome://, file://, or about:). Please try on a web page."
+  },
+  "msg_no_video": {
+    "message": "Error: No video found or PiP is not supported."
+  },
+  "msg_pip_already_active": {
+    "message": "PiP is already active."
+  },
+  "msg_pip_already_closed": {
+    "message": "PiP mode is already closed."
+  },
+  "msg_pip_close_error": {
+    "message": "Error: Could not exit PiP mode."
+  },
+  "msg_script_injection_error": {
+    "message": "Error: Could not inject content script. Reason: $1"
+  }
+}

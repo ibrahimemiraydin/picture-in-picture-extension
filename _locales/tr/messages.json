@@ -1,0 +1,56 @@
+{
+  "extension_name": {
+    "message": "Picture-in-Picture Uzantısı"
+  },
+  "extension_description": {
+    "message": "Aktif sekmedeki videoyu Picture-in-Picture moduna geçirir."
+  },
+  "popup_title": {
+    "message": "PIP Kontrol"
+  },
+  "pip_open_button": {
+    "message": "PIP Modunu Başlat"
+  },
+  "pip_close_button": {
+    "message": "PIP Modunu Kapat"
+  },
+  "info_text": {
+    "message": "Video oynatan herhangi bir sekmede çalışır"
+  },
+  "msg_pip_starting": {
+    "message": "PIP başlatılıyor..."
+  },
+  "msg_pip_started": {
+    "message": "Video Picture-in-Picture moduna geçti!"
+  },
+  "msg_pip_closing": {
+    "message": "PIP kapatılıyor..."
+  },
+  "msg_pip_closed": {
+    "message": "Video Picture-in-Picture modundan çıktı!"
+  },
+  "msg_no_active_tab": {
+    "message": "Hata: Aktif sekme bulunamadı."
+  },
+  "msg_communication_error": {
+    "message": "Hata: Sekme ile iletişim kurulamadı. Sebep: $1"
+  },
+  "msg_unsupported_url": {
+    "message": "Hata: Bu sayfada uzantı çalışmaz (chrome://, file:// veya about:). Lütfen bir web sayfasında deneyin."
+  },
+  "msg_no_video": {
+    "message": "Hata: Video bulunamadı veya PiP desteklenmiyor."
+  },
+  "msg_pip_already_active": {
+    "message": "PIP zaten aktif."
+  },
+  "msg_pip_already_closed": {
+    "message": "PIP modu zaten kapalı."
+  },
+  "msg_pip_close_error": {
+    "message": "Hata: PiP kapatılamadı."
+  },
+  "msg_script_injection_error": {
+    "message": "Hata: Content script enjekte edilemedi. Sebep: $1"
+  }
+}
